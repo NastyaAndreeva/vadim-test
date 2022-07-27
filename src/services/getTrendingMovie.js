@@ -9,6 +9,8 @@ export const getTrendingMovie = async () => {
       return res.json();
     });
 
+    console.log('results: ', results);
+
     return results;
   } catch (error) {
     console.log(error);

@@ -9,6 +9,7 @@ const Home = () => {
   useEffect(() => {
     const fetchedData = async () => {
       const response = await getTrendingMovie();
+
       setState(response);
     };
 
