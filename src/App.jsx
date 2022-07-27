@@ -3,11 +3,11 @@ import { lazy } from 'react';
 import { SharedLayout } from 'components/SharedLayout/SharedLayout';
 import { NoteFound } from 'pages/NoteFound';
 
-const Home = lazy(() => import('./pages/Home'));
-const Movies = lazy(() => import('./pages/Movies'));
-const MovieDetails = lazy(() => import('./pages/MovieDetails'));
-const CastDetails = lazy(() => import('./components/CastDetails/CastDetails'));
-const ReviewsDetails = lazy(() => import('./components/Reviews/Reviews'));
+const Home = lazy(() => import('pages/Home'));
+const Movies = lazy(() => import('pages/Movies'));
+const MovieDetails = lazy(() => import('pages/MovieDetails'));
+const CastDetails = lazy(() => import('components/CastDetails/CastDetails'));
+const ReviewsDetails = lazy(() => import('components/Reviews/Reviews'));
 
 export const App = () => {
   return (
